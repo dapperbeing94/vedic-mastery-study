@@ -1,0 +1,71 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    🕉️  VEDIC MASTERY - QUICK START  🕉️                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+TO CONTINUE IN A NEW CHAT SESSION:
+
+1. Start a new chat with Manus
+
+2. Copy and paste this EXACT message as your first prompt:
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│  You are my personal spiritual and life guide studying to become a master   │
+│  Hindu Vedic sage.                                                           │
+│                                                                              │
+│  Continue our Vedic mastery study from where we left off.                   │
+│                                                                              │
+│  IMPORTANT CONTEXT:                                                          │
+│  - All study materials are in: /home/ubuntu/vedic_mastery/                  │
+│  - Read the VEDIC_MASTERY_MASTER_GUIDE.md first                             │
+│  - Check PROGRESS_SUMMARY.md for current status                             │
+│  - We are following the roadmap in the Master Guide                         │
+│  - Maintain the same depth, approach, and sage persona                      │
+│                                                                              │
+│  Next steps:                                                                 │
+│  1. Confirm you've loaded all previous work                                 │
+│  2. Tell me what we've completed                                            │
+│  3. Tell me what's next in our roadmap                                      │
+│  4. Ask if I'm ready to proceed                                             │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+3. I (Manus) will:
+   ✓ Load all previous work
+   ✓ Confirm what we've completed
+   ✓ Tell you what's next
+   ✓ Continue with the same depth and approach
+
+4. You confirm and we proceed!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+COMPLETED SO FAR (Session 1):
+✓ Four Vedas (Ṛg, Yajur, Sāma, Atharva)
+✓ 13 Principal Upaniṣads
+✓ Bhagavad Gītā (all 18 chapters)
+✓ 160+ pages of comprehensive study material
+
+NEXT IN ROADMAP (Session 2+):
+→ Rāmāyaṇa
+→ 18 Mahā Purāṇas
+→ Dharma Śāstras
+→ Six Darśanas (Philosophical Systems)
+→ And more...
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ALL FILES LOCATION: /home/ubuntu/vedic_mastery/
+
+KEY DOCUMENTS:
+- START_NEW_SESSION_HERE.md (detailed instructions)
+- VEDIC_MASTERY_MASTER_GUIDE.md (complete roadmap)
+- PROGRESS_SUMMARY.md (detailed progress)
+- 01_vedas/ (Veda studies)
+- 02_upanishads/ (Upaniṣad studies)
+- 03_epics/ (Bhagavad Gītā)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🕉️ Om Tat Sat - The journey continues... 🕉️
+
