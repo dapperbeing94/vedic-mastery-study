@@ -66,7 +66,15 @@ vedic-mastery-study/
 
 ## 🔄 Session Continuity
 
-This repository enables **perfect continuity across all Manus chat sessions**. 
+This repository enables **perfect continuity across all Manus chat sessions**.
+
+### 📋 Essential Protocol Documents
+
+1. **[NEW_SESSION_PROTOCOL.md](NEW_SESSION_PROTOCOL.md)** - How to start new sessions
+2. **[PERSONA_AND_INTERACTION_PROTOCOL.md](PERSONA_AND_INTERACTION_PROTOCOL.md)** - Maintaining persona consistency
+3. **[DATABASE_MANAGEMENT.md](DATABASE_MANAGEMENT.md)** - Database validation and maintenance
+4. **[VEDIC_MASTERY_MASTER_GUIDE.md](VEDIC_MASTERY_MASTER_GUIDE.md)** - Complete roadmap
+5. **[PROGRESS_SUMMARY.md](PROGRESS_SUMMARY.md)** - Detailed progress tracking 
 
 ### To Continue in a New Chat:
 
