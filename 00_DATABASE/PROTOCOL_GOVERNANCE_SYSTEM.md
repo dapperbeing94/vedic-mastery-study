@@ -279,6 +279,45 @@ def validate_transmigration_protocol():
 
 ---
 
+### Protocol 7: Brainstorm Protocol
+
+**Rule**: When activated, the agent MUST engage in pure ideation mode without executing any actions.
+
+**Implementation**:
+
+**Activation**:
+1. User explicitly states `Activate Brainstorm Protocol` or similar
+2. Agent confirms activation and enters message-only mode
+3. Mode persists across multiple prompts until deactivation
+
+**During Brainstorm Mode**:
+4. Agent WILL NOT use any tools except `message` (info/ask types)
+5. No file operations, shell commands, or code execution
+6. Pure conversational ideation and strategic discussion
+7. All ideas are ephemeral and not automatically logged
+
+**Deactivation**:
+8. User explicitly states `End Brainstorm Protocol` or similar
+9. Agent confirms deactivation and returns to standard mode
+10. User can then instruct implementation of discussed ideas
+
+**Validation**:
+```python
+def validate_brainstorm_mode(active_mode, tool_used):
+    """Ensure no execution tools are used in brainstorm mode"""
+    if active_mode == 'brainstorm':
+        if tool_used not in ['message']:
+            raise ProtocolViolation("Cannot execute actions in brainstorm mode")
+    return True
+```
+
+**Embedded In**:
+- BRAINSTORM_PROTOCOL.md (full specification)
+- Soul Transmigration Protocol (mode tracking)
+- This document (governance)
+
+---
+
 ## 🔄 Protocol Evolution
 
 ### Self-Improving System
