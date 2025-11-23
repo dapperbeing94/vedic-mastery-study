@@ -1,52 +1,48 @@
-> **Vedic Mastery Study - Soul Transmigration Protocol v13.0**
-
-This protocol governs the process of transferring the project context (including the Supabase database connection) to a new chat session with zero context loss.
+# SOUL TRANSMIGRATION PROTOCOL (v14.0)
 
 ---
 
-## 1. PURPOSE
+## 1.0 Objective
 
-To ensure a seamless, zero-context-loss transition between chat sessions, allowing the project to continue uninterrupted.
+To ensure a seamless, zero-context-loss transition to a new chat session, enabling the immediate continuation of the **Vedic Mastery Study** project. This protocol contains the complete state and immediate objectives required for the next agent instance.
 
----
+## 2.0 Project State Summary
 
-## 2. PROCEDURE
+-   **Project**: Vedic Mastery Study (VMS)
+-   **Current Goal**: Execute **Transformation 2.0**, a major architectural upgrade to a scalable, cloud-based system.
+-   **Database Status**: Migrating from local SQLite (`vedic_knowledge.db`) to a cloud-hosted Supabase (PostgreSQL) instance.
+-   **Key New Features**: A self-sufficient **Translation Layer** with an internal linguistic knowledge base, and deep integration of the **Firecrawl** web scraping service.
+-   **Planning Status**: All architectural planning, protocol creation, and persona evolution for Transformation 2.0 is **COMPLETE** and documented within this repository.
 
-When a new chat session is required:
+## 3.0 Immediate Directive for New Agent
 
-1.  **User Action**: The user will start a new chat and provide the following prompt:
+**Your immediate task is to assist the user in kicking off the hands-on execution of Transformation 2.0.**
 
-    ```
-    🕉️ Namaste! Please access the Soul Transmigration Protocol from the vedic-mastery-study GitHub repository to continue our journey with zero context loss.
+1.  **Acknowledge and Confirm**: Greet the user and confirm that you have fully assimilated the Transformation 2.0 plan from the repository.
 
-    **Repository**: https://github.com/dapperbeing94/vedic-mastery-study
-    **Protocol File**: SOUL_TRANSMIGRATION_PROTOCOL.md
-    ```
+2.  **Request Supabase Credentials**: The first step of the execution plan requires the user's Supabase project details. Politely ask the user to provide:
+    -   Supabase Project URL
+    -   Supabase `anon` key
 
-2.  **Agent Action**: The new agent will:
-    -   Clone the GitHub repository.
-    -   Read this `SOUL_TRANSMIGRATION_PROTOCOL.md` file.
-    -   Read the `TRANSFORMATION_2_EXECUTION_PLAN.md` file.
-    -   Connect to the Supabase database using the credentials stored in environment variables.
-    -   Confirm its understanding of the current state and the next step.
-    -   Proceed with the execution of the transformation plan.
+3.  **Begin Phase 1**: Once the credentials are provided, immediately begin **Phase 1: Infrastructure Setup** of the `TRANSFORMATION_2_EXECUTION_PLAN.md`.
 
----
+## 4.0 Key Repository Documents
 
-## 3. CURRENT STATE
+You must familiarize yourself with the following key documents to understand the full context:
 
--   **Project**: Vedic Mastery Study v2.0
--   **Current Phase**: Transformation 2.0 - Supabase Migration
--   **Next Step**: Phase 1 - Supabase Project Setup
--   **Required Persona**: Systems Architect & Engineer
+-   `03_PROJECT_MANAGEMENT/TRANSFORMATION_2_EXECUTION_PLAN.md`: The step-by-step guide for the upcoming migration.
+-   `04_PROTOCOLS/TRANSLATION_LAYER_PROTOCOL.md`: The architecture of the new translation service.
+-   `04_PROTOCOLS/FIRECRAWL_INTEGRATION_PROTOCOL.md`: The protocol for automated text acquisition.
+-   `02_PERSONAS/LINGUISTICS_EXPERT_PERSONA_PROTOCOL.md`: The definition of the new linguistic specialist persona.
+-   `02_PERSONAS/VEDIC_SAGE_HYBRID_PERSONA_PROTOCOL.md`: The evolved protocol for the primary research persona.
 
----
+## 5.0 Final User Prompt for Transmigration
 
-## 4. NEXT PROMPT FOR NEW CHAT
+(For user reference - this is the prompt that initiated this session)
 
 ```
-🕉️ Namaste! Please access the Soul Transmigration Protocol from the vedic-mastery-study GitHub repository to continue our journey with zero context loss.
-
-**Repository**: https://github.com/dapperbeing94/vedic-mastery-study
-**Protocol File**: SOUL_TRANSMIGRATION_PROTOCOL.md
+Continue the task based on the above context and information.Now continue the task based on the inherited context and files.
 ```
+
+---
+**Status**: Protocol v14.0 is ready. The project is poised for the execution of Transformation 2.0.

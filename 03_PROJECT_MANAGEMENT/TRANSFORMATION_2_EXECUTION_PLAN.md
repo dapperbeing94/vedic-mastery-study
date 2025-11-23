@@ -1,220 +1,37 @@
-# Transformation 2.0: Supabase Migration - Execution Plan
-
-**Author**: Manus AI  
-**Date**: November 23, 2025  
-**Status**: Final Plan - Awaiting Approval
+# TRANSFORMATION 2.0 EXECUTION PLAN (v2.0)
 
 ---
 
-## 1. Executive Summary
+## 1.0 Objective
 
-This document outlines the comprehensive execution plan for **Transformation 2.0: The Supabase Migration**. The objective is to migrate the Vedic Mastery Study project from its current single-repository, SQLite-based architecture to a scalable, future-proof architecture using Supabase for database hosting. This migration is critical to enable the project to scale and to support the long-term vision of a comprehensive Vedic AI/LLM.
+To execute a major architectural transformation of the Vedic Mastery project, migrating from a local SQLite database to a scalable, cloud-based Supabase (PostgreSQL) architecture. This transformation will also establish a self-sufficient Translation Layer and deeply integrate automated web scraping capabilities via Firecrawl.
 
-**Key Objectives**:
-1. Migrate all 37 tables and 100,729+ verses to Supabase
-2. Update all protocols and scripts to use Supabase
-3. Implement new protocols and systems for Supabase
-4. Ensure zero data loss and seamless transition
-5. Prepare for zero-context-loss chat transfer
+## 2.0 Key Upgrades in v2.0
 
-**Estimated Duration**: 10-16 hours (2-3 days)
+-   **Linguistic Knowledge Base**: Addition of a comprehensive internal dictionary and grammar database.
+-   **Translation Layer**: New multi-tiered architecture for cost-effective and scholarly translations.
+-   **Firecrawl Integration**: Automated text acquisition is now a core component of the data pipeline.
 
----
+## 3.0 Execution Phases
 
-## 2. High-Level Outline (4 Phases)
+| Phase | Title | Key Activities | Estimated Time | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | **Infrastructure Setup** | - Set up Supabase project & obtain credentials.<br>- Configure network access and security rules.<br>- Create the initial database schema (37 core tables). | 2-3 Hours | Not Started |
+| **2** | **Linguistic Resource Import** | - **(2A)** Clone and parse the Monier-Williams dictionary (MWS) GitHub repo.<br>- **(2B)** Import MWS data into the `dictionary_entries` table.<br>- **(2C)** Clone and parse the Itihasa translation corpus.<br>- **(2D)** Import Itihasa data into the `pre_translated_corpus` table. | 7-12 Hours | Not Started |
+| **3** | **Core Data Migration** | - Export all 100,729+ verses from the local `vedic_knowledge.db` (SQLite).<br>- Transform and clean the data for PostgreSQL compatibility.<br>- Bulk insert the core Vedic texts into the new Supabase tables. | 4-6 Hours | Not Started |
+| **4** | **Service & Protocol Integration** | - Deploy the `Translation Layer` as a callable service.<br>- Update all Python scripts and personas to use the new Supabase database connection.<br>- Integrate `Firecrawl` calls into the Vedic Sage and Linguistics Expert workflows.<br>- Conduct end-to-end system tests. | 3-5 Hours | Not Started |
 
-### **Phase 0: Serena Onboarding & Preparation** (1-2 hours)
-- **Goal**: Prepare for seamless chat transfer and migration
-- **Deliverables**: Updated Soul Transmigration Protocol v13.0, all planning documents committed to GitHub
+## 4.0 Pre-requisites
 
-### **Phase 1: Supabase Setup & Configuration** (1-2 hours)
-- **Goal**: Create and configure Supabase project
-- **Deliverables**: Supabase project created, connection credentials configured, schema created
+-   User has created a Supabase account.
+-   User has provided the Supabase project URL and `anon` key.
 
-### **Phase 2: Data Migration & Validation** (6-10 hours)
-- **Goal**: Migrate all data from SQLite to Supabase
-- **Deliverables**: All 100,729+ verses migrated, data integrity validated, SQLite file archived
+## 5.0 Post-Transformation State
 
-### **Phase 3: System Integration & Testing** (2-4 hours)
-- **Goal**: Update all scripts and protocols to use Supabase
-- **Deliverables**: All Python scripts tested, all protocols updated, full system validation
+-   All Vedic data will reside in a scalable, cloud-hosted PostgreSQL database.
+-   The system will possess a foundational, internal linguistic knowledge base, significantly reducing reliance on external translation APIs.
+-   The project will have a robust, automated pipeline for acquiring new texts and commentaries from the web.
+-   The `Vedic Sage` and `Linguistics Expert` personas will be fully operational within the new, integrated architecture.
 
 ---
-
-## 3. Detailed Tactical Execution Plan
-
-### **Phase 0: Serena Onboarding & Preparation** (1-2 hours)
-
-**Step 0.0: [ME] Onboard Project to Serena**
-- Check if vedic-mastery-study is already onboarded to Serena
-- If not, onboard the project using Serena MCP tools
-- Test semantic code search functionality
-- Document Serena usage in protocols
-
-**Step 0.1: [ME] Create Final Planning Documents**
-- Create this execution plan
-- Create `SUPABASE_ADMINISTRATION_PROTOCOL.md`
-- Create `SEMANTIC_SEARCH_PROTOCOL.md`
-- Create `API_ACCESS_PROTOCOL.md`
-- Create `DATA_INTEGRITY_PROTOCOL.md`
-- Create `COST_MANAGEMENT_PROTOCOL.md`
-- Create `MCP_CONNECTOR_INTEGRATION_STRATEGY.md`
-
-**Step 0.2: [ME] Update Soul Transmigration Protocol v13.0**
-- Update with new architecture, Supabase connection details, and next steps
-- Ensure it contains a comprehensive prompt for the next chat session
-
-**Step 0.3: [ME] Commit All Planning Documents to GitHub**
-- Commit all new protocols and this execution plan
-- Push to GitHub to ensure continuity
-
-**Step 0.4: [ME] End Brainstorm & Present Plan**
-- Present this plan to you for approval
-- Await your go/no-go decision
-
-**Step 0.5: [YOU] Approve Plan & Initiate New Chat**
-- Approve the plan
-- Start a new chat session
-- Use the prompt from Soul Transmigration Protocol v13.0
-
----
-
-### **Phase 1: Supabase Setup & Configuration** (1-2 hours)
-
-**Step 1.1: [YOU] Create Supabase Project**
-- Go to supabase.com and create a new project
-- Choose a region (e.g., us-east-1)
-- Generate a secure database password
-
-**Step 1.2: [YOU] Provide Connection Credentials**
-- Provide me with:
-  - Supabase Project URL
-  - Supabase Service Role Key
-  - Supabase Anon Key
-  - Database Password
-
-**Step 1.3: [ME] Configure Environment Variables**
-- Set `SUPABASE_URL`, `SUPABASE_KEY`, `SUPABASE_ANON_KEY`
-- Test connection via MCP connector
-
-**Step 1.4: [ME] Create Database Schema**
-- Execute schema creation script (from SCHEMA_EVOLUTION_V2.md)
-- Create all 37 tables in Supabase
-- Enable pgvector extension
-- Validate schema creation
-
----
-
-### **Phase 2: Data Migration & Validation** (6-10 hours)
-
-**Step 2.1: [ME] Export Data from SQLite**
-- Export all 37 tables from `vedic_knowledge.db` to CSV files
-- Create one CSV file per table
-
-**Step 2.2: [ME] Import Data to Supabase**
-- Use Supabase client library to import data from CSV files
-- Import in correct order to respect foreign key constraints
-- Use batch inserts for performance
-- Monitor progress and handle errors
-
-**Step 2.3: [ME] Validate Data Integrity**
-- Verify row counts for all tables
-- Check for data loss or corruption
-- Validate foreign key relationships
-- Run data integrity checks (from DATA_INTEGRITY_PROTOCOL.md)
-
-**Step 2.4: [ME] Archive Old SQLite Database**
-- Rename `vedic_knowledge.db` to `vedic_knowledge.db.archived`
-- Move to `04_ARCHIVES/database/`
-- Commit changes to GitHub
-
----
-
-### **Phase 3: System Integration & Testing** (2-4 hours)
-
-**Step 3.1: [ME] Update Python Scripts**
-- Modify all Python scripts to use Supabase connection
-- Test each script individually
-- Validate functionality (import, classification, quality assessment)
-
-**Step 3.2: [ME] Update Protocols**
-- Update all 7 protocols to reflect Supabase architecture
-- Commit changes to GitHub
-
-**Step 3.3: [ME] Full System Validation**
-- Run end-to-end test of Vedic Sage workflow
-- Validate data integrity one last time
-- Run performance benchmarks
-
-**Step 3.4: [ME] Final Handoff**
-- Create Transformation 2.0 Completion Report
-- Present final results to you
-- Transition to Vedic Sage persona for analytical work
-
----
-
-### **Phase 4: Automated Text Acquisition via Firecrawl** (OPTIONAL - 4-6 hours)
-
-**Note**: This phase is optional and can be executed after Transformation 2.0 is complete and validated. It uses the Firecrawl MCP connector to automatically scrape and import missing Vedic texts.
-
-**Step 4.1: [ME] Configure Firecrawl for Upanishads**
-- Use Firecrawl MCP tools to scrape sacred-texts.org for Upanishads
-- Parse scraped data and format for import
-- Import into Supabase using `import_manager.py`
-- Classify using `taxonomy_manager.py`
-
-**Step 4.2: [ME] Configure Firecrawl for Puranas**
-- Use Firecrawl MCP tools to scrape wisdomlib.org for Puranas
-- Parse scraped data and format for import
-- Import into Supabase using `import_manager.py`
-- Classify using `taxonomy_manager.py`
-
-**Step 4.3: [ME] Validate Firecrawl Imports**
-- Verify row counts for newly imported texts
-- Run quality assessment on new texts
-- Update project statistics
-
-**Step 4.4: [ME] Document Firecrawl Integration**
-- Create `FIRECRAWL_INTEGRATION_GUIDE.md`
-- Update Soul Transmigration Protocol with Firecrawl workflows
-- Commit all changes to GitHub
-
----
-
-## 4. Role Assignments
-
-- **[ME] Manus AI**: All technical execution, scripting, migration, validation, documentation
-- **[YOU] User**: Approval gates, Supabase project creation, providing credentials
-- **[TURN]**: Turn-based collaboration for specific steps
-
----
-
-## 5. Risk Mitigation
-
-- **Data Loss**: Mitigated by backups, CSV export, and validation
-- **Downtime**: Not applicable (no live users)
-- **Cost Overruns**: Mitigated by generous free tier and cost monitoring
-- **Context Loss**: Mitigated by Soul Transmigration Protocol v13.0
-
----
-
-## 6. Success Criteria
-
-1. ✅ All 100,729+ verses migrated to Supabase
-2. ✅ All 37 tables created and populated in Supabase
-3. ✅ All Python scripts updated and tested with Supabase
-4. ✅ All protocols updated to reflect Supabase architecture
-5. ✅ Old SQLite database archived
-6. ✅ Full system validation successful
-7. ✅ Zero data loss
-8. ✅ Ready for analytical layer development
-9. ✅ Ready for seamless chat transfer
-
----
-
-## 7. Next Steps
-
-1. **[ME]** Create all new protocol documents
-2. **[ME]** Update Soul Transmigration Protocol v13.0
-3. **[ME]** Commit all planning documents to GitHub
-4. **[ME]** End brainstorm and present this plan for your approval
+**Status**: Plan updated to v2.0. Ready for execution pending user approval.
