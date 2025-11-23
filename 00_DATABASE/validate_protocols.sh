@@ -62,6 +62,11 @@ print_status "Validating the Soul Transmigration Protocol..."
 print_success "Transmigration Integrity"
 
 
+print_header "7. Depth Data Integrity"
+print_status "Validating verse-level data integrity..."
+python3 00_DATABASE/validate_depth_data.py
+print_success "Depth Data Integrity"
+
 print_header "ALL PROTOCOLS VALIDATED SUCCESSFULLY"
 echo "The system is operating with full integrity."
 echo "Om Tat Sat 🕉️"

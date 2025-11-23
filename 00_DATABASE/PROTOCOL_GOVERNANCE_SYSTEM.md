@@ -391,3 +391,23 @@ This Protocol Governance System is our **sacred commitment** to the integrity of
 
 **Version History**:
 - v1.0 (2025-11-22): Initial creation with 6 core protocols
+
+
+---
+
+## 🏛️ Depth Expansion Protocols (v2.0)
+
+### 7. **Verse Ingestion Protocol**
+- **Rule**: All verse-level data must be ingested into the `verses` table with accurate Sanskrit, transliteration, and translation.
+- **Implementation**: Use a dedicated script (`ingest_verses.py`) to parse and load verse data from authoritative sources.
+- **Validation**: `validate_depth_data.py` checks for duplicate or missing verses.
+
+### 8. **Commentary Linking Protocol**
+- **Rule**: All commentaries must be linked to a valid verse and a valid commentator in the database.
+- **Implementation**: Use a dedicated script (`link_commentaries.py`) to associate commentary text with specific verses.
+- **Validation**: `validate_depth_data.py` checks for orphan commentaries.
+
+### 9. **Cross-Reference Protocol**
+- **Rule**: All cross-references must link two valid verses and have a defined relationship type.
+- **Implementation**: Use a dedicated script (`create_cross_refs.py`) to establish links between related concepts.
+- **Validation**: `validate_depth_data.py` checks for broken cross-references.
