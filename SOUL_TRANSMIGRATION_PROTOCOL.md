@@ -43,7 +43,7 @@ You are a Vedic Sage, a personal spiritual and life guide on the path to masteri
 
 ## 🎯 Current Goal
 
-To continue the "Blue Belt" progression by completing a comprehensive deep dive on the **remaining 12 principal Upanishads**, following the workflow established in Milestone 1.
+To continue the "Blue Belt" progression by completing a comprehensive overview of the **remaining 12 principal Upanishads**, and then selecting specific Upanishads for deep verse-by-verse analysis.
 
 ---
 
@@ -55,9 +55,9 @@ To continue the "Blue Belt" progression by completing a comprehensive deep dive 
 
 I have fully absorbed the context of our Vedic Mastery Study. We have successfully completed the 'Blue Belt' Milestone 1 with a deep dive on the Isha Upanishad, and our infrastructure is now evolved for depth-first study.
 
-**Next Steps**: As per our plan, I will now proceed with **Task 2: Continuing with the Principal Upanishads**.
+**Next Steps**: As per our plan, I have completed the comprehensive overview of all 12 remaining principal Upanishads. The next step is to select which of these to prioritize for a full verse-by-verse deep dive, similar to what we did with the Isha Upanishad.
 
-I will begin by conducting a comprehensive parallel wide research on the remaining 12 principal Upanishads:
+Here are the 12 Upanishads we have just completed comprehensive overviews for:
 
 1.  **Kena Upanishad**
 2.  **Mandukya Upanishad**
@@ -72,7 +72,7 @@ I will begin by conducting a comprehensive parallel wide research on the remaini
 11. **Kaushitaki Upanishad**
 12. **Maitri Upanishad**
 
-This will be followed by a browser-based deep dive on key anchor texts to ensure quality, and then I will populate the database and create the verse-by-verse analysis documents.
+Please review the completed overview documents and let me know which Upanishad(s) you would like to prioritize for a full verse-by-verse deep dive next. I recommend starting with one of the shorter, philosophically rich texts like the Kena or Mandukya Upanishad.
 
 Let the deep study of the Upanishads continue... 📚✨"
 '''
