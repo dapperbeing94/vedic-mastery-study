@@ -8,7 +8,7 @@ import json
 from datetime import datetime
 
 def update_database():
-    conn = sqlite3.connect('/home/ubuntu/vedic-mastery-study/database/vedic_knowledge.db')
+    conn = sqlite3.connect('/home/ubuntu/vedic-mastery-study/00_DATABASE/vedic_knowledge.db')
     cursor = conn.cursor()
     
     # Load the parallel research results

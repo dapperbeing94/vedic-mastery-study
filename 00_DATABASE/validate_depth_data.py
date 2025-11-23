@@ -22,23 +22,23 @@ def check_orphan_commentaries():
     """Finds commentaries linked to non-existent verses."""
     conn = get_db_connection()
     df = pd.read_sql_query("""
-        SELECT c.commentary_id, c.verse_id
+        SELECT c.id, c.verse_id
         FROM commentaries c
-        LEFT JOIN verses v ON c.verse_id = v.verse_id
-        WHERE v.verse_id IS NULL
+        LEFT JOIN verses v ON c.verse_id = v.id
+        WHERE v.id IS NULL
     """, conn)
     conn.close()
     return df
 
 def check_orphan_cross_references():
-    """Finds cross-references linked to non-existent verses."""
+    """Finds cross-references linked to non-existent texts."""
     conn = get_db_connection()
     df = pd.read_sql_query("""
-        SELECT cr.cross_ref_id, cr.source_verse_id, cr.target_verse_id
+        SELECT cr.id, cr.source_text_id, cr.target_text_id
         FROM cross_references cr
-        LEFT JOIN verses v1 ON cr.source_verse_id = v1.verse_id
-        LEFT JOIN verses v2 ON cr.target_verse_id = v2.verse_id
-        WHERE v1.verse_id IS NULL OR v2.verse_id IS NULL
+        LEFT JOIN texts t1 ON cr.source_text_id = t1.id
+        LEFT JOIN texts t2 ON cr.target_text_id = t2.id
+        WHERE t1.id IS NULL OR t2.id IS NULL
     """, conn)
     conn.close()
     return df

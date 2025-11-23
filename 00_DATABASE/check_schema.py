@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('/home/ubuntu/vedic-mastery-study/database/vedic_knowledge.db')
+conn = sqlite3.connect('/home/ubuntu/vedic-mastery-study/00_DATABASE/vedic_knowledge.db')
 cursor = conn.cursor()
 
 for table in ['concepts', 'verses', 'study_progress']:

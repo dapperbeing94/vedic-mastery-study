@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sqlite3
 
-db_path = "/home/ubuntu/vedic_mastery/database/vedic_knowledge.db"
+db_path = "/home/ubuntu/vedic_mastery/00_DATABASE/vedic_knowledge.db"
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
 

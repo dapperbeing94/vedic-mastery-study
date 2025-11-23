@@ -14,7 +14,7 @@ from typing import Dict, List, Optional
 class VedicKnowledgeBase:
     """Database manager for Vedic knowledge corpus"""
     
-    def __init__(self, db_path: str = "/home/ubuntu/vedic_mastery/database/vedic_knowledge.db"):
+    def __init__(self, db_path: str = "/home/ubuntu/vedic_mastery/00_DATABASE/vedic_knowledge.db"):
         self.db_path = db_path
         self.conn = None
         self.initialize_database()

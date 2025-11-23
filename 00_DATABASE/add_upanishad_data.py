@@ -2,7 +2,7 @@
 import sqlite3
 
 def add_upanishad_data():
-    conn = sqlite3.connect('database/vedic_knowledge.db')
+    conn = sqlite3.connect('00_DATABASE/vedic_knowledge.db')
     c = conn.cursor()
     
     # Get text IDs
