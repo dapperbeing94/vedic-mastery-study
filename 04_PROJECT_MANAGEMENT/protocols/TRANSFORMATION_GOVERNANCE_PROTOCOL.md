@@ -20,7 +20,7 @@ It achieves this by:
 
 ## 2. ACTIVATION & PERSISTENCE
 
--   **Activation**: This protocol is activated at the beginning of Phase 0 of the transformation.
+-   **Activation**: This protocol is activated at the beginning of Phase 2 of the transformation.
 -   **Persistence**: It remains active across all sessions until the completion of Phase 13 (Documentation & Handoff).
 -   **Deactivation**: This protocol is deactivated upon the successful completion of the transformation, at which point the project reverts to the standard `PROTOCOL_GOVERNANCE_SYSTEM.md`.
 
