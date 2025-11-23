@@ -28,7 +28,7 @@ SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 app = FastAPI(
     title="Vedic Mastery Translation Layer",
     description="Self-sufficient Sanskrit translation service with internal linguistic knowledge base",
-    version="2.0.0"
+    version="2.1.0"
 )
 
 # Initialize Supabase client
@@ -80,7 +80,7 @@ async def root():
     """Health check and API information"""
     return {
         "service": "Vedic Mastery Translation Layer",
-        "version": "2.0.0",
+        "version": "2.1.0",
         "status": "operational",
         "features": [
             "Dictionary lookup (Monier-Williams: 286,535 entries)",
@@ -214,6 +214,80 @@ async def translate(request: TranslationRequest):
         raise HTTPException(status_code=500, detail=f"Translation failed: {str(e)}")
 
 
+# ============================================================================
+# AI/ML ENDPOINTS (Placeholder - Transformation 3.0)
+# ============================================================================
+
+class SemanticSearchRequest(BaseModel):
+    query: str
+    limit: int = 10
+
+class AIInsightRequest(BaseModel):
+    verse_id: int
+    insight_type: str  # 'commentary', 'analysis', 'connections'
+
+class HealthCheckResponse(BaseModel):
+    status: str
+    score: float
+    checks: List[Dict]
+
+
+@app.post("/semantic/search")
+async def semantic_search(request: SemanticSearchRequest):
+    """
+    Semantic search using vector embeddings.
+    
+    Status: NOT IMPLEMENTED - Placeholder for Transformation 3.0
+    Returns: 501 Not Implemented
+    """
+    raise HTTPException(
+        status_code=501,
+        detail="Semantic search not yet implemented. Activation scheduled for Transformation 3.0. Use /corpus/search for keyword-based search."
+    )
+
+
+@app.post("/ai/generate-insight")
+async def generate_ai_insight(request: AIInsightRequest):
+    """
+    Generate AI-powered insights for a verse.
+    
+    Status: NOT IMPLEMENTED - Placeholder for Transformation 3.0
+    Returns: 501 Not Implemented
+    """
+    raise HTTPException(
+        status_code=501,
+        detail="AI insight generation not yet implemented. Activation scheduled for Transformation 3.0."
+    )
+
+
+@app.get("/ai/embedding-coverage")
+async def get_embedding_coverage():
+    """
+    Get embedding coverage statistics.
+    
+    Status: NOT IMPLEMENTED - Placeholder for Transformation 3.0
+    Returns: 501 Not Implemented
+    """
+    raise HTTPException(
+        status_code=501,
+        detail="Embedding coverage tracking not yet implemented. Activation scheduled for Transformation 3.0."
+    )
+
+
+@app.get("/health/check")
+async def health_check():
+    """
+    Run system health checks.
+    
+    Status: NOT IMPLEMENTED - Placeholder for Transformation 3.0
+    Returns: 501 Not Implemented
+    """
+    raise HTTPException(
+        status_code=501,
+        detail="Health check system not yet implemented. Activation scheduled for Transformation 3.0. Use GET / for basic status."
+    )
+
+
 @app.get("/stats")
 async def get_stats():
     """Get Translation Layer statistics"""
@@ -246,11 +320,17 @@ if __name__ == "__main__":
     print("🚀 Starting Translation Layer API...")
     print(f"   Supabase: {SUPABASE_URL}")
     print(f"   Endpoints:")
-    print(f"     - GET  /")
-    print(f"     - POST /dictionary/lookup")
-    print(f"     - POST /corpus/search")
-    print(f"     - POST /translate")
-    print(f"     - GET  /stats")
+    print(f"     Active (v2.0):")
+    print(f"       - GET  /")
+    print(f"       - POST /dictionary/lookup")
+    print(f"       - POST /corpus/search")
+    print(f"       - POST /translate")
+    print(f"       - GET  /stats")
+    print(f"     Placeholder (v3.0):")
+    print(f"       - POST /semantic/search (501)")
+    print(f"       - POST /ai/generate-insight (501)")
+    print(f"       - GET  /ai/embedding-coverage (501)")
+    print(f"       - GET  /health/check (501)")
     print(f"\n   Server starting on http://0.0.0.0:8000")
     
     uvicorn.run(app, host="0.0.0.0", port=8000)
