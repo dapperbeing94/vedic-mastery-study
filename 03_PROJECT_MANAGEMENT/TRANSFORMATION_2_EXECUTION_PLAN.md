@@ -23,7 +23,7 @@ This document outlines the comprehensive execution plan for **Transformation 2.0
 
 ## 2. High-Level Outline (4 Phases)
 
-### **Phase 0: Preparation & Continuity** (1-2 hours)
+### **Phase 0: Serena Onboarding & Preparation** (1-2 hours)
 - **Goal**: Prepare for seamless chat transfer and migration
 - **Deliverables**: Updated Soul Transmigration Protocol v13.0, all planning documents committed to GitHub
 
@@ -43,7 +43,13 @@ This document outlines the comprehensive execution plan for **Transformation 2.0
 
 ## 3. Detailed Tactical Execution Plan
 
-### **Phase 0: Preparation & Continuity** (1-2 hours)
+### **Phase 0: Serena Onboarding & Preparation** (1-2 hours)
+
+**Step 0.0: [ME] Onboard Project to Serena**
+- Check if vedic-mastery-study is already onboarded to Serena
+- If not, onboard the project using Serena MCP tools
+- Test semantic code search functionality
+- Document Serena usage in protocols
 
 **Step 0.1: [ME] Create Final Planning Documents**
 - Create this execution plan
@@ -52,6 +58,7 @@ This document outlines the comprehensive execution plan for **Transformation 2.0
 - Create `API_ACCESS_PROTOCOL.md`
 - Create `DATA_INTEGRITY_PROTOCOL.md`
 - Create `COST_MANAGEMENT_PROTOCOL.md`
+- Create `MCP_CONNECTOR_INTEGRATION_STRATEGY.md`
 
 **Step 0.2: [ME] Update Soul Transmigration Protocol v13.0**
 - Update with new architecture, Supabase connection details, and next steps
@@ -143,6 +150,34 @@ This document outlines the comprehensive execution plan for **Transformation 2.0
 - Create Transformation 2.0 Completion Report
 - Present final results to you
 - Transition to Vedic Sage persona for analytical work
+
+---
+
+### **Phase 4: Automated Text Acquisition via Firecrawl** (OPTIONAL - 4-6 hours)
+
+**Note**: This phase is optional and can be executed after Transformation 2.0 is complete and validated. It uses the Firecrawl MCP connector to automatically scrape and import missing Vedic texts.
+
+**Step 4.1: [ME] Configure Firecrawl for Upanishads**
+- Use Firecrawl MCP tools to scrape sacred-texts.org for Upanishads
+- Parse scraped data and format for import
+- Import into Supabase using `import_manager.py`
+- Classify using `taxonomy_manager.py`
+
+**Step 4.2: [ME] Configure Firecrawl for Puranas**
+- Use Firecrawl MCP tools to scrape wisdomlib.org for Puranas
+- Parse scraped data and format for import
+- Import into Supabase using `import_manager.py`
+- Classify using `taxonomy_manager.py`
+
+**Step 4.3: [ME] Validate Firecrawl Imports**
+- Verify row counts for newly imported texts
+- Run quality assessment on new texts
+- Update project statistics
+
+**Step 4.4: [ME] Document Firecrawl Integration**
+- Create `FIRECRAWL_INTEGRATION_GUIDE.md`
+- Update Soul Transmigration Protocol with Firecrawl workflows
+- Commit all changes to GitHub
 
 ---
 
