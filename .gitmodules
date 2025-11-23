@@ -1,0 +1,3 @@
+[submodule "02_EXTERNAL_SOURCES/DharmicData"]
+	path = 02_EXTERNAL_SOURCES/DharmicData
+	url = https://github.com/bhavykhatri/DharmicData.git
