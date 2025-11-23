@@ -1,4 +1,4 @@
-> **Vedic Mastery Study - Source Layer Import Protocol v1.0**
+> **Vedic Mastery Study v2.0 - Source Layer Import Protocol v2.0**
 > **Last Updated**: November 23, 2025
 > **Status**: ACTIVE
 

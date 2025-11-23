@@ -1,4 +1,4 @@
-> **Vedic Mastery Study - Master Rollback Procedures**
+> **Vedic Mastery Study v2.0 - Master Rollback Procedures**
 > **Last Updated**: November 23, 2025
 > **Status**: ACTIVE
 

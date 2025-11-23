@@ -1,4 +1,4 @@
-# Vedic Mastery Study - Tracking System Architecture
+# Vedic Mastery Study v2.0 - Tracking System Architecture
 
 **Date**: November 22, 2025  
 **Purpose**: Systematic, programmatic infrastructure for tracking breadth and depth across the entire Vedic framework

@@ -9,4 +9,4 @@ This directory contains the granular, verse-by-verse analysis of the Isha Upanis
 - Philosophical significance
 - Practical application
 
-This deep dive serves as the pilot for the "Blue Belt" progression of the Vedic Mastery Study.
+This deep dive serves as the pilot for the "Blue Belt" progression of the Vedic Mastery Study v2.0.

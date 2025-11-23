@@ -2,7 +2,7 @@
 
 **Date**: November 22, 2025  
 **Phase**: Blue Belt - Option 4 Complete  
-**Session**: Vedic Mastery Study - Session 4
+**Session**: Vedic Mastery Study v2.0 - Session 4
 
 ---
 

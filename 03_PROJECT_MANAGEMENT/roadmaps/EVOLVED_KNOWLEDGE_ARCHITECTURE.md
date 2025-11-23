@@ -1,4 +1,4 @@
-# Evolved Knowledge Architecture - Vedic Mastery Study (Blue Belt)
+# Evolved Knowledge Architecture - Vedic Mastery Study v2.0 (Blue Belt)
 
 **Objective**: To evolve the knowledge architecture from a breadth-first (green belt) to a depth-first (blue belt) model, enabling systematic, in-depth study and advanced synthesis.
 

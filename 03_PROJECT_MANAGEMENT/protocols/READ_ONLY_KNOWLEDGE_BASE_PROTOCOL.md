@@ -1,4 +1,4 @@
-> **Vedic Mastery Study - Read-Only Knowledge Base Protocol v2.0**
+> **Vedic Mastery Study v2.0 - Read-Only Knowledge Base Protocol v2.0**
 > **Last Updated**: November 23, 2025
 > **Status**: ACTIVE
 
@@ -6,7 +6,7 @@
 
 ## 1. PURPOSE
 
-This protocol defines the rules and procedures for interacting with the Vedic Mastery Study knowledge base in a **read-only** capacity. Its purpose is to allow for safe, non-destructive querying, exploration, and synthesis of the existing knowledge without any risk of modifying the underlying data.
+This protocol defines the rules and procedures for interacting with the Vedic Mastery Study v2.0 knowledge base in a **read-only** capacity. Its purpose is to allow for safe, non-destructive querying, exploration, and synthesis of the existing knowledge without any risk of modifying the underlying data.
 
 **This protocol is intended for tasks that require drawing conclusions from the existing knowledge base, not for adding new knowledge.**
 

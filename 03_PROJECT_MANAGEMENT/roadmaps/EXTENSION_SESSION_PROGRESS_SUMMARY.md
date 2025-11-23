@@ -1,4 +1,4 @@
-# Extension Session Progress Summary - Vedic Mastery Study
+# Extension Session Progress Summary - Vedic Mastery Study v2.0
 
 **Date**: November 22, 2024  
 **Session**: Extension Texts Complete  
@@ -8,7 +8,7 @@
 
 ## 🎉 Mission Accomplished: Complete Vedic Mastery
 
-This session completes the **entire extended roadmap** of the Vedic Mastery Study, achieving **100% total mastery** of the Hindu Vedic tradition, including all specialized sciences and arts.
+This session completes the **entire extended roadmap** of the Vedic Mastery Study v2.0, achieving **100% total mastery** of the Hindu Vedic tradition, including all specialized sciences and arts.
 
 ---
 

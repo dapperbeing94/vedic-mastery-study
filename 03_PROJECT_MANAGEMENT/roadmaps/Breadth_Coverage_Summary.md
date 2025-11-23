@@ -1,4 +1,4 @@
-# 🕉️ Vedic Mastery Study - Breadth Coverage Summary
+# 🕉️ Vedic Mastery Study v2.0 - Breadth Coverage Summary
 
 **Last Updated**: November 23, 2025  
 **Version**: 1.0
@@ -128,4 +128,4 @@
 
 ---
 
-This summary provides a clear and concise overview of the extensive breadth we have achieved in our Vedic Mastery Study. It is a testament to the comprehensive foundation we have built, and it serves as a powerful showcase of our progress before we transition to the depth expansion phase.
+This summary provides a clear and concise overview of the extensive breadth we have achieved in our Vedic Mastery Study v2.0. It is a testament to the comprehensive foundation we have built, and it serves as a powerful showcase of our progress before we transition to the depth expansion phase.

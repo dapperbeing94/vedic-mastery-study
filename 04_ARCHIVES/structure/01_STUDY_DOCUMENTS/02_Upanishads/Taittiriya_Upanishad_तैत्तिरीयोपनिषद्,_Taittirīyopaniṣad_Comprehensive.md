@@ -119,4 +119,4 @@ The Taittiriya Upanishad (तैत्तिरीयोपनिषद्, Tait
 
 **Om Shanti Shanti Shanti** 🙏
 
-*This document is part of the Vedic Mastery Study - Blue Belt Progression*
+*This document is part of the Vedic Mastery Study v2.0 - Blue Belt Progression*

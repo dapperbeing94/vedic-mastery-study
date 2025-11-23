@@ -1,4 +1,4 @@
-# Comprehensive Audit and Roadmap for Vedic Mastery Study
+# Comprehensive Audit and Roadmap for Vedic Mastery Study v2.0
 
 **Date**: November 22, 2025  
 **Purpose**: Complete assessment of current progress and roadmap to finish the end-to-end Vedic framework

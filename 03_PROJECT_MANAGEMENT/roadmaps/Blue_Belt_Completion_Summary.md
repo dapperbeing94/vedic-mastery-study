@@ -2,13 +2,13 @@
 
 **Date**: November 22, 2025  
 **Phase**: Blue Belt - COMPLETE  
-**Session**: Vedic Mastery Study - Session 6
+**Session**: Vedic Mastery Study v2.0 - Session 6
 
 ---
 
 ## 🎯 Objective
 
-Complete the **Blue Belt** phase of the Vedic Mastery Study, which includes:
+Complete the **Blue Belt** phase of the Vedic Mastery Study v2.0, which includes:
 1. Deep dive on the Isha Upanishad (verse-by-verse analysis)
 2. Comprehensive overviews of all 12 remaining principal Upanishads
 3. Option 4: Study of other major texts (Brahma Sutras, Yoga Sutras, Vedas)

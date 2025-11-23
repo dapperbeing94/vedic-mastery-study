@@ -1,4 +1,4 @@
-# Vedic Mastery Study - Tracking System Documentation
+# Vedic Mastery Study v2.0 - Tracking System Documentation
 
 **Date**: November 22, 2025  
 **Purpose**: Documentation for the Continuity and Thoroughness Protocol
@@ -7,7 +7,7 @@
 
 ## Overview
 
-This document provides the complete documentation for the Vedic Mastery Study tracking system. This system is designed to provide a persistent, objective, and automated way to track our progress across the entire Vedic framework.
+This document provides the complete documentation for the Vedic Mastery Study v2.0 tracking system. This system is designed to provide a persistent, objective, and automated way to track our progress across the entire Vedic framework.
 
 ---
 

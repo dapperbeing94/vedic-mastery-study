@@ -6,7 +6,7 @@
 
 ### 1.1. Purpose
 
-This document outlines the complete technical architecture of the Vedic Mastery Study knowledge base. Its purpose is to provide a single source of truth for the database schema, data flows, and operational logic, ensuring project continuity and enabling future development.
+This document outlines the complete technical architecture of the Vedic Mastery Study v2.0 knowledge base. Its purpose is to provide a single source of truth for the database schema, data flows, and operational logic, ensuring project continuity and enabling future development.
 
 ### 1.2. Architectural Principles
 
@@ -293,4 +293,4 @@ graph TD
 
 ## 4. Conclusion
 
-This architecture provides a robust, scalable, and evolvable foundation for the Vedic Mastery Study project. By strictly separating source data from our analysis and implementing comprehensive systems for taxonomy, quality, and provenance, we can ensure the long-term integrity and value of the knowledge base, paving the way for the future development of a Vedic AI/LLM.
+This architecture provides a robust, scalable, and evolvable foundation for the Vedic Mastery Study v2.0 project. By strictly separating source data from our analysis and implementing comprehensive systems for taxonomy, quality, and provenance, we can ensure the long-term integrity and value of the knowledge base, paving the way for the future development of a Vedic AI/LLM.

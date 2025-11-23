@@ -1,4 +1,4 @@
-# Vedic Mastery Study - Breadth Expansion Roadmap
+# Vedic Mastery Study v2.0 - Breadth Expansion Roadmap
 
 **Date**: November 22, 2025  
 **Purpose**: A phased roadmap to achieve 10/10 breadth across all 10 categories of the Vedic framework.

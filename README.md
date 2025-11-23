@@ -1,6 +1,6 @@
 > **🕉️ Om Tat Sat 🕉️**
 
-# Vedic Mastery Study - A Comprehensive Knowledge Repository
+# Vedic Mastery Study v2.0 - A Comprehensive Knowledge Repository
 
 **A sacred journey to systematically study, synthesize, and embody the profound wisdom of the Hindu Vedic tradition.**
 

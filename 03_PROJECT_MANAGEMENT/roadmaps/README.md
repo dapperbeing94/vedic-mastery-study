@@ -1,4 +1,4 @@
-# 🕉️ Vedic Mastery Study
+# 🕉️ Vedic Mastery Study v2.0
 
 **A comprehensive personal journey through the Hindu Vedic tradition**
 

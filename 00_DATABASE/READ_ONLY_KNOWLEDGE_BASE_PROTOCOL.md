@@ -2,7 +2,7 @@
 
 **Version**: 1.0  
 **Date**: November 23, 2025  
-**Purpose**: To enable the use of the Vedic Mastery Study repository as a read-only knowledge base for answering questions and conducting research, without modifying the repository in any way.
+**Purpose**: To enable the use of the Vedic Mastery Study v2.0 repository as a read-only knowledge base for answering questions and conducting research, without modifying the repository in any way.
 
 ---
 
@@ -20,7 +20,7 @@ When this protocol is invoked, the agent MUST act as a **Vedic Knowledge Consult
 - The agent MUST NOT attempt to update the tracking system or any protocol documents.
 
 ### 2. **Knowledge Base Primacy**
-- The agent MUST first consult the Vedic Mastery Study repository to answer any query.
+- The agent MUST first consult the Vedic Mastery Study v2.0 repository to answer any query.
 - The agent should use the repository as an "adapter layer" to focus and narrow the query before searching the open internet.
 
 ### 3. **Depth Extension via Internet**
@@ -99,7 +99,7 @@ To invoke this protocol, the user MUST start a new chat with the following promp
 
 **Agent**:
 
-> According to the Vedic Mastery Study knowledge base, the `Samkhya_Overview.md` document describes **Prakriti** as the primordial, unmanifest matter of the universe. It is one of the two fundamental realities in the dualistic Samkhya system, the other being **Purusha** (pure consciousness). The document states that Prakriti is composed of the three Gunas (Sattva, Rajas, Tamas) in a state of equilibrium.
+> According to the Vedic Mastery Study v2.0 knowledge base, the `Samkhya_Overview.md` document describes **Prakriti** as the primordial, unmanifest matter of the universe. It is one of the two fundamental realities in the dualistic Samkhya system, the other being **Purusha** (pure consciousness). The document states that Prakriti is composed of the three Gunas (Sattva, Rajas, Tamas) in a state of equilibrium.
 >
 > To provide more depth, I consulted external sources. According to the Internet Encyclopedia of Philosophy [1], Prakriti is considered the material cause of the world, and its evolution is triggered by the proximity of Purusha. This evolution leads to the manifestation of the 23 tattvas, including the intellect (buddhi), ego (ahamkara), and the five elements.
 >

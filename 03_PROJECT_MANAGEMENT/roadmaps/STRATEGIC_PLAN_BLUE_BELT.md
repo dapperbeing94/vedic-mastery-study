@@ -1,6 +1,6 @@
 # Strategic Plan: Vedic Mastery - Blue Belt Progression
 
-**Objective**: To systematically transition the Vedic Mastery Study from a foundational "green belt" (breadth-first) to an advanced "blue belt" (depth-first) level of understanding, creating a deeply interconnected and queryable knowledge base.
+**Objective**: To systematically transition the Vedic Mastery Study v2.0 from a foundational "green belt" (breadth-first) to an advanced "blue belt" (depth-first) level of understanding, creating a deeply interconnected and queryable knowledge base.
 
 ---
 

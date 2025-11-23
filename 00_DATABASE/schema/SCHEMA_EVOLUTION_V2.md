@@ -1,4 +1,4 @@
-> **Note**: This document contains the specific SQL commands for migrating the database from v1 (14 tables) to v2 (34 tables). The complete architecture is described in `ARCHITECTURE_DOCUMENTATION.md`.
+> **Note**: This document contains the specific SQL commands for migrating the database from v1 (37 tables) to v2 (34 tables). The complete architecture is described in `ARCHITECTURE_DOCUMENTATION.md`.
 
 ---
 

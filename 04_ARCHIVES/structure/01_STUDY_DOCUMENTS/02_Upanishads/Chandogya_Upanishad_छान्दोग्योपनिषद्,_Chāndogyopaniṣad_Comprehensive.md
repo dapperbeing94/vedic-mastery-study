@@ -134,4 +134,4 @@ The Chandogya Upanishad (छान्दोग्योपनिषद्, Chān
 
 **Om Shanti Shanti Shanti** 🙏
 
-*This document is part of the Vedic Mastery Study - Blue Belt Progression*
+*This document is part of the Vedic Mastery Study v2.0 - Blue Belt Progression*

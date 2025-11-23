@@ -1,4 +1,4 @@
-> **Vedic Mastery Study - Quality Assessment Protocol v1.0**
+> **Vedic Mastery Study v2.0 - Quality Assessment Protocol v2.0**
 > **Last Updated**: November 23, 2025
 > **Status**: ACTIVE
 

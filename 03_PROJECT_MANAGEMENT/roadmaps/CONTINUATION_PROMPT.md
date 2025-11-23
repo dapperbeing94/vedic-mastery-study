@@ -1,4 +1,4 @@
-# Vedic Mastery Study - Continuation Protocol (Session 3)
+# Vedic Mastery Study v2.0 - Continuation Protocol (Session 3)
 
 **Instructions for User**: Copy and paste the entire content below as the **first prompt** in your new chat session. Do not add any other text. The new agent will take care of the rest.
 

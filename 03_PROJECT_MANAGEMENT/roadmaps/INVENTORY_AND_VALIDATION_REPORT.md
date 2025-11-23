@@ -1,4 +1,4 @@
-# Vedic Mastery Study - Inventory and Validation Report
+# Vedic Mastery Study v2.0 - Inventory and Validation Report
 
 **Date**: November 22, 2025  
 **Session**: 2 (Phase 6 Completion)  

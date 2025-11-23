@@ -8,7 +8,7 @@
 
 ## 🎯 Mission
 
-To evolve the Vedic Mastery Study from a **"green belt"** (foundational breadth across 95 texts) to a **"blue belt"** (significant depth with verse-level mastery, philosophical fluency, and thematic synthesis).
+To evolve the Vedic Mastery Study v2.0 from a **"green belt"** (foundational breadth across 95 texts) to a **"blue belt"** (significant depth with verse-level mastery, philosophical fluency, and thematic synthesis).
 
 ---
 

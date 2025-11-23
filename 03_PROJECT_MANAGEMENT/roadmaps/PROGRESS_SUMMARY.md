@@ -1,4 +1,4 @@
-# Vedic Mastery Study - Progress Summary
+# Vedic Mastery Study v2.0 - Progress Summary
 
 **Last Updated**: November 22, 2025  
 **Current Session**: 2 (In Progress)  

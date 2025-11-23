@@ -61,7 +61,7 @@ This document validates that the Soul Transmigration Protocol provides complete 
 
 A new agent starting the next session with the Soul Transmigration Protocol would have:
 
-1. **Clear Identity**: They are a Vedic Sage / Systems Architect working on the Vedic Mastery Study project.
+1. **Clear Identity**: They are a Vedic Sage / Systems Architect working on the Vedic Mastery Study v2.0 project.
 2. **Current State**: Breadth is 100% complete (10/10), depth is 29% complete (2.9/10).
 3. **Immediate Task**: Fix the `depth_tracker.py` script (specific bug identified).
 4. **Next Task**: Begin the Brihadaranyaka Upanishad deep dive.
