@@ -169,6 +169,22 @@ Om Tat Sat 🕉️
 
 ---
 
+## 🏛️ Protocol Governance System
+
+**All work is governed by the [Protocol Governance System](00_DATABASE/PROTOCOL_GOVERNANCE_SYSTEM.md).**
+
+**At Session Start**:
+```bash
+./00_DATABASE/validate_protocols.sh
+```
+
+**At Session End**:
+```bash
+./00_DATABASE/validate_protocols.sh
+```
+
+---
+
 ## 🔄 Workflow for Each Study Phase
 
 1. **Session Start**: Run `python3 00_DATABASE/vedic_tracker.py --dashboard`
