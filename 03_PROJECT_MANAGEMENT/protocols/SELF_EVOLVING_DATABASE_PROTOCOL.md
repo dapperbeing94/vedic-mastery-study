@@ -6,7 +6,7 @@
 
 ## 1. PURPOSE
 
-This protocol governs the evolution of the database schema and taxonomy, ensuring that the knowledge base can grow and adapt to new discoveries without compromising its structural integrity. It provides a systematic, safe, and audited process for modifying the core classification system.
+This protocol governs the evolution of the Supabase (PostgreSQL) database schema and taxonomy, ensuring that the knowledge base can grow and adapt to new discoveries without compromising its structural integrity. It provides a systematic, safe, and audited process for modifying the core classification system.
 
 ---
 

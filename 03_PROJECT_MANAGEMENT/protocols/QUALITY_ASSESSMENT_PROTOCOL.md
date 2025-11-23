@@ -6,7 +6,7 @@
 
 ## 1. PURPOSE
 
-This protocol defines the framework and metrics for assessing the quality and depth of the analytical work performed by the Vedic Sage persona. Its purpose is to move beyond simple word counts and establish a robust, quantitative measure of knowledge depth, ensuring that our work is consistently thorough and insightful.
+This protocol defines the framework and metrics for assessing the quality and depth of the analytical work performed by the Vedic Sage persona in our Supabase database. Its purpose is to move beyond simple word counts and establish a robust, quantitative measure of knowledge depth, ensuring that our work is consistently thorough and insightful.
 
 ---
 

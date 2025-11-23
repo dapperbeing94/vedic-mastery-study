@@ -6,7 +6,7 @@
 
 ## 1. PURPOSE
 
-This protocol governs the process of importing raw, word-for-word source texts from external repositories into our database's **Source Layer**. Its purpose is to ensure that all imports are systematic, consistent, validated, and fully traceable.
+This protocol governs the process of importing raw, word-for-word source texts from external repositories into our **Supabase database's Source Layer**. Its purpose is to ensure that all imports are systematic, consistent, validated, and fully traceable.
 
 **The core principle of this protocol is that the Source Layer is immutable. Once imported, this data should never be modified.**
 

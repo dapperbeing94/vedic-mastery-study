@@ -6,7 +6,7 @@
 
 ## 1. PURPOSE
 
-This protocol provides a safe, systematic, and reversible process for cleaning up the repository by archiving obsolete files and restructuring directories. Its primary goal is to maintain a clean, logical, and efficient repository structure without risking the loss of vital data or institutional knowledge.
+This protocol provides a safe, systematic, and reversible process for cleaning up the GitHub repository, especially after migrating the database to Supabase. Its primary goal is to maintain a clean, logical, and efficient repository structure without risking the loss of vital data or institutional knowledge.
 
 **The core principle is: Archive, Never Delete.**
 
