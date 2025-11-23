@@ -1,10 +1,22 @@
 # TRANSLATION LAYER PROTOCOL
 
+**Status:** ACTIVE (Transformation 2.0+)  
+**Database:** Supabase (PostgreSQL)  
+**API:** Translation Layer API v2.1.0  
+**Last Updated:** Transformation 2.1
+
 ---
 
 ## 1.0 Architecture: A Multi-Tiered Approach
 
 The Translation Layer is a service-oriented architecture designed to provide fast, accurate, and cost-effective translations of Sanskrit texts. It operates on a tiered query system, prioritizing internal, curated data over external, costly APIs.
+
+**Infrastructure (Transformation 2.0):**
+- **Database:** Supabase (cloud-hosted PostgreSQL)
+- **Dictionary:** 286,535 Monier-Williams entries
+- **Corpus:** 92,030 Itihasa parallel translations
+- **API:** RESTful service (FastAPI) at http://localhost:8000
+- **Future (3.0):** Vector embeddings for semantic search
 
 ```mermaid
 graph TD
@@ -25,8 +37,8 @@ graph TD
 
 | Tier | Component | Description | Response Time | Cost |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | **Internal Dictionary** | Direct lookup in the `dictionary_entries` table (Monier-Williams, Apte, etc.). | < 50ms | Free |
-| 2 | **Pre-Translated Corpus** | Search for the full verse in the `pre_translated_corpus` table (Itihasa dataset). | < 200ms | Free |
+| 1 | **Internal Dictionary** | Direct lookup in the `dictionary_entries` table (Monier-Williams: 286,535 entries in Supabase). | < 50ms | Free |
+| 2 | **Pre-Translated Corpus** | Search for the full verse in the `pre_translated_corpus` table (Itihasa: 92,030 translations in Supabase). | < 200ms | Free |
 | 3 | **Morphological Analysis** | Deconstruct words using `word_stems` and `grammatical_rules` for programmatic translation. | < 500ms | Free |
 | 4 | **LLM Fallback** | If all internal tiers fail, query a large language model (e.g., GPT-4) for a translation. | 1-5s | $$$ |
 
