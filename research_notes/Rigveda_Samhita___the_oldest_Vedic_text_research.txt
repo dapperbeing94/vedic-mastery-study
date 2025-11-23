@@ -1,0 +1,62 @@
+TEXT: Rigveda Samhita
+================================================================================
+
+OVERVIEW:
+The Rigveda Samhita is the oldest known and most important of the four Vedas, the foundational scriptures of Hinduism. It is a collection of Vedic Sanskrit hymns (*sūktas*) and is considered *śruti* (that which is heard), or revealed knowledge. Scholarly consensus dates the bulk of the Rigveda Samhita's composition to the late Bronze Age, between c. 1500 and 1000 BCE, in the Sapta Sindhu region (northwestern Indian subcontinent). The text was preserved for millennia through an extraordinary oral tradition of memorization and recitation before being committed to writing. Its significance lies in its being the earliest literary record of Indo-Aryan civilization, providing insights into the religion, society, and philosophy of the early Vedic period. The text is attributed to various families of seers (*Rishis*).
+
+CORE PHILOSOPHY:
+The core philosophy of the Rigveda is primarily a form of naturalistic polytheism and henotheism, centered on the propitiation of various deities (*devas*) associated with natural phenomena (e.g., Agni, Indra, Varuṇa, Sūrya). The hymns are ritualistic, aimed at securing worldly prosperity, protection, and success through *yajña* (sacrifice/ritual). However, the later books (especially Mandala 1 and 10) introduce profound philosophical and monistic/monotheistic concepts. Key among these is the idea of **Ekam Sat** (The One Truth/Reality), which is called by many names (RV 1.164.46), suggesting an underlying unity behind the multiplicity of gods. The Nasadiya Sukta (RV 10.129) explores deep cosmological skepticism, questioning the very origin of creation and the nature of the primordial state, moving towards abstract metaphysical inquiry.
+
+STRUCTURE:
+The Rigveda Samhita is organized into ten books, known as **Maṇḍalas**. It contains 1,028 hymns (*sūktas*) and approximately 10,600 verses (*ṛc*).
+*   **Family Books (Maṇḍalas 2–7):** These are the oldest and shortest books, attributed to specific families of seers (*Rishis*) and are highly focused on ritual and praise of the major deities.
+*   **Mixed Maṇḍalas (Maṇḍalas 1, 8, 9, 10):** These were composed later. Maṇḍala 1 and 10 are the most recent and contain the most philosophical and speculative hymns (e.g., Purusha Sukta, Nasadiya Sukta). Maṇḍala 9 is dedicated entirely to the deity Soma.
+The Samhita is the mantra portion, which is further supplemented by the **Brāhmaṇas** (ritual commentaries), **Āraṇyakas** (forest treatises), and **Upaniṣads** (philosophical texts), which together form the complete Rigveda corpus.
+
+KEY VERSES:
+The Rigveda contains several seminal verses and hymns that form the basis of later Hindu philosophy:
+
+1.  **Gāyatrī Mantra (RV 3.62.10):**
+    *   **Sanskrit:** *oṃ bhūr bhuvaḥ svaḥ | tat savitur vareṇyaṃ | bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt ||*
+    *   **Translation:** "Let us meditate on the excellent glory of the divine Vivifier, Savitṛ. May he stimulate our intellects." (A prayer for spiritual and intellectual awakening, dedicated to the solar deity Savitṛ).
+
+2.  **Ekam Sat (RV 1.164.46):**
+    *   **Sanskrit:** *indraṃ mitraṃ varuṇam agnim āhur atho divyaḥ sa suparṇo gharutmān | ekaṃ sad viprā bahudhā vadanty agniṃ yamaṃ mātariśvānam āhuḥ ||*
+    *   **Translation:** "They call him Indra, Mitra, Varuṇa, Agni, and he is the heavenly, noble-winged Garutmān. To what is **One**, sages give many names—they call it Agni, Yama, Mātariśvan." (The foundational statement of monistic thought, asserting the unity of the Divine).
+
+3.  **Nāsadīya Sūkta (Hymn of Creation) (RV 10.129.1):**
+    *   **Sanskrit:** *nāsad āsīn no sad āsīt tadānīṃ nāsīd rajo no vyomā paro yat | kim āvarīvaḥ kuha kasya śarmann ambhaḥ kim āsīd ghahanaṃ gabhīram ||*
+    *   **Translation:** "Then was not non-existent nor existent: there was no realm of air, no sky beyond it. What covered in, and where? and what gave shelter? Was water there, unfathomed depth of water?" (A profound, skeptical inquiry into the state before creation, highlighting the limits of human knowledge).
+
+4.  **Puruṣa Sūkta (RV 10.90.12):**
+    *   **Sanskrit:** *brāhmaṇo 'sya mukham āsīd bāhū rājanyaḥ kṛtaḥ | ūrū tad asya yad vaiśyaḥ padbhyāṃ śūdro ajāyata ||*
+    *   **Translation:** "The Brāhmaṇa was his mouth, the Rājanya was made his arms, the Vaiśya was his thighs, and the Śūdra was produced from his feet." (Describes the cosmic sacrifice of the primordial being, Puruṣa, from which the four social orders (*varṇas*) are said to have originated).
+
+COMMENTATORS:
+The most influential and comprehensive commentary on the entire Rigveda Samhita is by **Sāyaṇācārya** (14th century CE), a scholar in the Vijayanagara Empire. His commentary, based on the Mīmāṃsā tradition, provides a primarily ritualistic and etymological interpretation, focusing on the practical application of the hymns in the *yajña* (sacrifice). Other notable commentators and interpreters include:
+*   **Skandasvāmin** (7th century CE): One of the earliest known commentators.
+*   **Mādhava** (Sāyaṇa's brother): Contributed to the exegetical tradition.
+*   **Dayananda Saraswati** (19th century, founder of Arya Samaj): Advocated a monotheistic interpretation, rejecting the ritualistic focus and anthropomorphic depiction of the deities.
+*   **Sri Aurobindo** (20th century): Provided a psychological and spiritual interpretation, viewing the Vedic deities as symbols of inner psychological forces and the hymns as a record of the soul's journey.
+
+THEMES:
+The core themes of the Rigveda are:
+1.  **Cosmic Order (*Ṛta*):** The central theme, representing the fundamental moral and physical order of the universe. The *devas* (especially Varuṇa) are the guardians of *Ṛta*.
+2.  **Praise and Propitiation of Deities:** Hymns are dedicated to a pantheon of gods, including Indra (warrior, king of gods), Agni (fire, messenger between gods and humans), Varuṇa (cosmic order, morality), Sūrya/Savitṛ (Sun), Soma (sacred drink, deity), and Uṣas (Dawn).
+3.  **Yajña (Sacrifice/Ritual):** The performance of ritual is a major theme, seen as the mechanism for maintaining cosmic balance and securing boons from the gods.
+4.  **Cosmogony and Metaphysics:** Later hymns (Mandala 10) explore the origins of the universe (Nasadiya Sukta) and the nature of the ultimate reality (Puruṣa Sūkta, Ekam Sat).
+5.  **Social and Ethical Values:** Themes of *dāna* (charity), hospitality, and the importance of community are present, alongside the nascent idea of social stratification (Puruṣa Sūkta).
+
+PRACTICAL APPLICATION:
+The Rigveda remains a living text in Hinduism today. Many of its mantras, particularly the **Gāyatrī Mantra**, are recited daily by Brahmins and other Hindus. Verses are used in major rites of passage (*saṃskāras*) such as weddings, thread ceremonies (*upanayana*), and funeral rites. Philosophically, it serves as the ultimate scriptural authority (*śruti*) for all subsequent schools of Hindu philosophy, including Vedānta. Culturally, its hymns are studied for their linguistic, historical, and cultural value, representing the earliest form of Sanskrit and a window into the ancient Indo-Aryan world.
+
+RELATIONSHIPS:
+The Rigveda is the source text for much of the later Vedic literature:
+*   **Sāmaveda:** Almost entirely derived from the Rigveda, consisting of Rigvedic verses arranged for chanting (*sāman*) during Soma sacrifices.
+*   **Yajurveda:** Contains prose mantras and sacrificial formulas, many of which are Rigvedic verses adapted for ritual performance.
+*   **Atharvaveda:** While chronologically later and distinct in content (focusing on magic, healing, and domestic rituals), it shares some hymns with the Rigveda.
+*   **Upanishads:** The Aitareya and Kauṣītaki Upaniṣads are attached to the Rigveda, representing the culmination of its philosophical thought (Vedānta).
+*   **Avesta:** The Rigveda shares strong linguistic and thematic similarities with the Iranian Avesta, reflecting a common Proto-Indo-Iranian heritage.
+
+SOURCES:
+[https://www.wisdomlib.org/hinduism/book/rig-veda-english-translation](https://www.wisdomlib.org/hinduism/book/rig-veda-english-translation), [https://sacred-texts.com/hin/rigveda/index.htm](https://sacred-texts.com/hin/rigveda/index.htm), [https://en.wikipedia.org/wiki/Rigveda](https://en.wikipedia.org/wiki/Rigveda), [https://www.jstor.org/stable/23564021](https://www.jstor.org/stable/23564021)
