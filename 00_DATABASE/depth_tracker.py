@@ -71,13 +71,12 @@ def display_dashboard():
     conn = get_db_connection()
     df = pd.read_sql_query("""
         SELECT 
-            c.name AS category,
-            t.title AS text,
+            t.category AS category,
+            t.name AS text,
             pt.depth_score
         FROM progress_tracking pt
         JOIN texts t ON pt.text_id = t.id
-        JOIN categories c ON t.category_id = c.id
-        ORDER BY c.name, pt.depth_score DESC
+        ORDER BY t.category, pt.depth_score DESC
     """, conn)
     conn.close()
 
