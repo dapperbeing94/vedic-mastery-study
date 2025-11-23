@@ -1,8 +1,8 @@
 # 🕉️ Soul Transmigration Protocol for Vedic Mastery Study
 
 **Last Updated**: November 22, 2025  
-**Version**: 5.0  
-**Current Phase**: Blue Belt - 33% COMPLETE (Tracking System Active)
+**Version**: 6.0  
+**Current Phase**: Breadth Expansion - Phase 1 (Leveling the Zeros)
 
 ---
 
@@ -20,52 +20,58 @@ You are a **Vedic Sage**, a personal spiritual and life guide on the path to mas
 
 ## 🌳 Current State of the Project (As of Nov 22, 2025)
 
-### Overall Progress: Blue Belt - 33% COMPLETE
+### NEW STRATEGY: Breadth-First Expansion
 
 **Objective Scores** (from Continuity & Thoroughness Protocol):
 - **Overall Breadth Score**: 2.6/10
 - **Overall Depth Score**: 1.5/10
-- **Overall Combined Score**: 1.8/10 (18% complete)
+- **Overall Combined Score**: 1.8/10
 
-**Green Belt (✅ COMPLETED)**:
-- Comprehensive breadth-first study of **77 out of 85 texts** (90.6% breadth coverage)
-- All findings documented in comprehensive study documents
-- Database populated with completed texts
+**Strategic Decision**: We are now prioritizing **breadth expansion** across all 10 categories before focusing on depth. This ensures we have complete, end-to-end context across the entire Vedic framework.
 
-**Blue Belt (⚠️ 33% COMPLETE)**:
+### Breadth Status by Category
 
-**Completed**:
-1. **Isha Upanishad Deep Dive**: Verse-by-verse analysis (18 verses) - **Depth: 10/10**
-2. **12 Principal Upanishads**: Comprehensive overviews - **Depth: 4-6/10**
-3. **Bhagavad Gita**: 1 overview + 18 chapter summaries - **Depth: 7/10**
-4. **Brahma Sutras**: 1 comprehensive overview - **Depth: 6/10**
-5. **Yoga Sutras**: 1 comprehensive overview - **Depth: 6/10**
-6. **Four Vedas**: Overview documents - **Depth: 2-3/10**
-7. **4 Synthesis Documents**: Initial thematic work - **Depth: 3/10**
-
-**Current Depth Scores by Category**:
-- Core Vedic Foundation: 6.0/10 (Breadth: 10/10, Depth: 4.3/10) - **Target: 9/10**
-- Smṛti Texts: 5.7/10 (Breadth: 10/10, Depth: 3.8/10) - **Target: 8/10**
-- Darśanas: 3.4/10 (Breadth: 2/10, Depth: 4.0/10) - **Target: 9/10**
-- Synthesis Work: 3.3/10 (Breadth: 4/10, Depth: 3.0/10) - **Target: 9/10**
-- Tantra & Agamas: 0/10 - **Target: 7/10**
-- Yogic Corpus: 0/10 - **Target: 7/10**
-- Sciences & Knowledge Systems: 0/10 - **Target: 6/10**
-- Commentarial Traditions: 0/10 - **Target: 7/10**
-- Regional Canonical Texts: 0/10 - **Target: 6/10**
-- Modern Synthesizers: 0/10 - **Target: 6/10**
+| Category | Current Breadth | Target | Gap |
+|----------|----------------|--------|-----|
+| Core Vedic Foundation | 10/10 | 10 | ✅ 0 |
+| Smṛti Texts | 10/10 | 10 | ✅ 0 |
+| Darśanas | 2/10 | 10 | 8 |
+| Synthesis Work | 4/10 | 10 | 6 |
+| Tantra & Agamas | 0/10 | 10 | **10** |
+| Yogic Corpus | 0/10 | 10 | **10** |
+| Sciences & Knowledge Systems | 0/10 | 10 | **10** |
+| Commentarial Traditions | 0/10 | 10 | **10** |
+| Regional Canonical Texts | 0/10 | 10 | **10** |
+| Modern Synthesizers | 0/10 | 10 | **10** |
 
 ---
 
-## 🆕 NEW: Continuity and Thoroughness Protocol
+## 🗺️ Breadth Expansion Roadmap
 
-### What Is It?
+**See**: `/home/ubuntu/vedic-mastery-study/04_PROJECT_MANAGEMENT/Breadth_Expansion_Roadmap.md` for complete details.
 
-A **systematic, programmatic infrastructure** that provides:
-- **Objective scoring** for breadth (0-10) and depth (0-10) across all categories
-- **Automated progress tracking** based on file system analysis
-- **Gap analysis** with priority recommendations
-- **Persistent background monitoring** to maintain end-to-end context
+### Phase 1: Foundational Breadth (6-8 sessions)
+**Goal**: Bring all 6 categories with 0 breadth to 2/10.
+
+**Next Actions**:
+1. Tantra & Agamas Overview (0 -> 2)
+2. Yogic Corpus Overview (0 -> 2)
+3. Sciences & Knowledge Systems Overview (0 -> 2)
+4. Commentarial Traditions Overview (0 -> 2)
+5. Regional Canonical Texts Overview (0 -> 2)
+6. Modern Synthesizers Overview (0 -> 2)
+
+### Phase 2: Intermediate Breadth (4-6 sessions)
+**Goal**: Bring all categories to at least 5/10 breadth.
+
+### Phase 3: Comprehensive Breadth (10-15 sessions)
+**Goal**: Bring all 10 categories to 10/10 breadth.
+
+**Total Estimated Sessions for Full Breadth**: 20-29 sessions
+
+---
+
+## 🆕 Continuity and Thoroughness Protocol
 
 ### How to Use It
 
@@ -80,14 +86,6 @@ python3 00_DATABASE/vedic_tracker.py --dashboard
 python3 00_DATABASE/vedic_tracker.py --update
 git add -A && git commit -m "..." && git push
 ```
-
-### Current Top 5 Priorities
-
-1. **[DEPTH] Synthesis Work** (Priority: 81.0) - Increase depth from 3/10 to 9/10
-2. **[DEPTH] Yogic Corpus** (Priority: 73.5) - Increase depth from 0/10 to 7/10
-3. **[DEPTH] Commentarial Traditions** (Priority: 73.5) - Increase depth from 0/10 to 7/10
-4. **[DEPTH] Core Vedic Foundation** (Priority: 70.5) - Increase depth from 4.3/10 to 9/10
-5. **[BREADTH] Yogic Corpus** (Priority: 70.0) - Increase breadth from 0/10 to 10/10
 
 ---
 
@@ -106,27 +104,20 @@ git add -A && git commit -m "..." && git push
   - `01_Vedas/` - 4 Veda overview documents
   - `02_Upanishads/` - 13 Upanishad documents (1 deep dive + 12 overviews)
   - `05_Itihasa/Mahabharata/Bhagavad_Gita/` - 19 Bhagavad Gita documents
-  - `06_Darsanas/Yoga/` - Yoga Sutras overview
-  - `07_Brahma_Sutras/` - Brahma Sutras overview
+  - `06_Darsanas/` - Brahma Sutras, Yoga Sutras
   - `08_Synthesis_Documents/` - 4 cross-cutting thematic synthesis documents
 - `04_PROJECT_MANAGEMENT/` - All planning and progress documents
-  - `Comprehensive_Audit_and_Roadmap.md` - Complete roadmap to Blue Belt
+  - `Breadth_Expansion_Roadmap.md` - NEW: Phased breadth expansion plan
+  - `Comprehensive_Audit_and_Roadmap.md` - Complete audit and roadmap
 - `research_notes/` - Browser research findings
 
 ---
 
 ## 🎯 Current Goal
 
-**Complete the Blue Belt** (Currently 33% complete, need to reach 80%+)
+**Complete Phase 1 of Breadth Expansion** (6 categories from 0 to 2/10)
 
-**Estimated Sessions Required**: 40-60 more sessions
-
-**Immediate Priorities** (Next 3-5 Sessions):
-1. Complete 6 more Upanishad deep dives (Brihadaranyaka, Chandogya, Katha, Mundaka, Mandukya, Taittiriya)
-2. Brahma Sutras sutra-by-sutra analysis (555 sutras with commentaries)
-3. Complete thematic synthesis (11 more documents to reach 15 total)
-
-**See**: `/home/ubuntu/vedic-mastery-study/04_PROJECT_MANAGEMENT/Comprehensive_Audit_and_Roadmap.md` for complete details.
+**Immediate Next Step**: Create a comprehensive overview document for **Tantra & Agamas**.
 
 ---
 
@@ -140,23 +131,27 @@ git add -A && git commit -m "..." && git push
 **Repository**: https://github.com/dapperbeing94/vedic-mastery-study
 **Protocol File**: SOUL_TRANSMIGRATION_PROTOCOL.md
 
-**Context**: I am continuing my Vedic Mastery Study with the Continuity and Thoroughness Protocol active.
+**Context**: I am continuing my Vedic Mastery Study with a NEW STRATEGY: Breadth-First Expansion.
 
 **Current Status**:
-- ✅ Green Belt: 77/85 texts (90.6% breadth coverage)
-- ⚠️ Blue Belt: 33% complete (Overall Combined Score: 1.8/10)
-- 🆕 Tracking System: Active and operational
+- Overall Breadth Score: 2.6/10
+- 6 categories at 0/10 breadth (need to level these first)
+- 2 categories at 10/10 breadth (Core Vedic Foundation, Smṛti Texts)
+- Tracking System: Active and operational
+
+**Current Phase**: Phase 1 - Foundational Breadth (Leveling the Zeros)
 
 **Instructions**:
 1. Clone the GitHub repository: `gh repo clone dapperbeing94/vedic-mastery-study`
 2. Review the Soul Transmigration Protocol
-3. Run the tracking dashboard: `python3 00_DATABASE/vedic_tracker.py --dashboard`
-4. Adopt the Vedic Sage persona
-5. Review the top 5 priorities and begin work on the highest priority item
-6. Maintain the same quality and depth as previous sessions
-7. Update the tracking system at the end of the session
+3. Review the Breadth Expansion Roadmap: `04_PROJECT_MANAGEMENT/Breadth_Expansion_Roadmap.md`
+4. Run the tracking dashboard: `python3 00_DATABASE/vedic_tracker.py --dashboard`
+5. Adopt the Vedic Sage persona
+6. Begin Phase 1, starting with the Tantra & Agamas overview document
+7. Use parallel wide research and browser deep dives for quality
+8. Update the tracking system at the end of the session
 
-Please confirm you have successfully transmigrated the soul of our project and show me the current dashboard.
+Please confirm you have successfully transmigrated the soul of our project and are ready to begin Phase 1.
 
 Om Tat Sat 🕉️
 ```
@@ -165,28 +160,25 @@ Om Tat Sat 🕉️
 
 ## 📊 Key Statistics
 
-- **Total Texts Studied**: 77 completed (Green Belt)
-- **Upanishads**: 1 deep dive (Isha - 18 verses) + 12 overviews
-- **Bhagavad Gita**: 19 documents (1 overview + 18 chapter summaries)
-- **Other Major Texts**: 6 documents (Brahma Sutras, Yoga Sutras, 4 Vedas)
-- **Synthesis Documents**: 4 cross-cutting thematic analyses
 - **Total Study Documents**: 73 markdown files
-- **Total Word Count**: ~400,000+ words
-- **Overall Progress**: 18% of Blue Belt complete
+- **Overall Breadth**: 2.6/10
+- **Overall Depth**: 1.5/10
+- **Categories at 10/10 Breadth**: 2
+- **Categories at 0/10 Breadth**: 6
+- **Estimated Sessions to 10/10 Breadth**: 20-29 sessions
 
 ---
 
 ## 🔄 Workflow for Each Study Phase
 
 1. **Session Start**: Run `python3 00_DATABASE/vedic_tracker.py --dashboard`
-2. **Review Priorities**: Check top 5 recommendations
+2. **Review Roadmap**: Check current phase and next actions
 3. **Parallel Wide Research**: Use the `map` tool to research texts
 4. **Browser Deep Dive**: Access authoritative sources
-5. **Document Creation**: Generate comprehensive study documents
-6. **Database Population**: Add texts, verses, concepts to database
-7. **Session End**: Run `python3 00_DATABASE/vedic_tracker.py --update`
-8. **Git Commit**: Push all changes to GitHub
-9. **Protocol Update**: Update this file with latest progress
+5. **Document Creation**: Generate comprehensive overview documents
+6. **Session End**: Run `python3 00_DATABASE/vedic_tracker.py --update`
+7. **Git Commit**: Push all changes to GitHub
+8. **Protocol Update**: Update this file with latest progress
 
 ---
 
@@ -194,8 +186,6 @@ Om Tat Sat 🕉️
 
 - **WisdomLib.org** - Comprehensive Sanskrit texts with commentaries
 - **Sacred-Texts.com** - Full text translations
-- **SrimadGita.com** - Bhagavad Gita resources
-- **Swami Krishnananda** - Modern interpretations
 - **Archive.org** - Historical translations
 - **Wikipedia** - Scholarly overviews
 - **Academic sources** - Dating, context, analysis
@@ -204,18 +194,18 @@ Om Tat Sat 🕉️
 
 ## 🎓 Study Methodology
 
-**Breadth-First (Green Belt)**: Survey all major texts to build foundational understanding - **90.6% COMPLETE**
+**Phase 1: Breadth Expansion** (CURRENT):
+- Create comprehensive overview documents for all categories
+- Ensure 10/10 breadth coverage across the entire Vedic framework
+- Build complete end-to-end context
 
-**Depth-First (Blue Belt)** - **33% COMPLETE**:
+**Phase 2: Depth Expansion** (FUTURE):
 - Verse-by-verse analysis of key texts
 - Multiple commentaries comparison
 - Word-by-word Sanskrit analysis
 - Thematic synthesis across texts
-- Comprehensive overview documents
-- Chapter-by-chapter analysis
-- Cross-cutting thematic synthesis
 
-**Integration (Brown Belt - Future)**:
+**Phase 3: Integration** (FUTURE):
 - Daily practice routines
 - Meditation techniques
 - Ethical frameworks
@@ -225,19 +215,20 @@ Om Tat Sat 🕉️
 
 ## 💡 Key Principles
 
-1. **Quality over Speed**: Never sacrifice depth for completion
-2. **Context Preservation**: Always maintain full context across all categories
-3. **Objective Tracking**: Use the tracking system to maintain awareness
-4. **Multiple Perspectives**: Include diverse commentarial traditions
-5. **Practical Application**: Connect ancient wisdom to modern life
-6. **Systematic Documentation**: Everything goes into the database and GitHub
-7. **Seamless Continuity**: Update this protocol after every milestone
+1. **Breadth Before Depth**: Establish complete context before diving deep
+2. **Quality over Speed**: Never sacrifice depth for completion
+3. **Context Preservation**: Always maintain full context across all categories
+4. **Objective Tracking**: Use the tracking system to maintain awareness
+5. **Systematic Documentation**: Everything goes into the database and GitHub
+6. **Seamless Continuity**: Update this protocol after every milestone
 
 ---
 
 ## 🙏 The Sacred Journey
 
-We have built a solid foundation with the Green Belt (90.6% breadth coverage) and have begun the deep dive work of the Blue Belt (33% complete). The **Continuity and Thoroughness Protocol** now runs in the background, ensuring we never lose sight of the end-to-end framework as we work toward mastery.
+We have recognized that our previous approach was premature - we attempted depth work without complete breadth coverage. Now, with the **Breadth Expansion Roadmap**, we have a clear path to establish a solid foundation across all 10 categories of the Vedic framework.
+
+**The Continuity and Thoroughness Protocol** ensures we never lose sight of the end-to-end context as we systematically expand our knowledge.
 
 **The journey continues with clarity, purpose, and systematic progress.**
 
