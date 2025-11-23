@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-11-23T16:56:36.813998",
+  "overall_status": "warning",
+  "overall_score": 0.74,
+  "issues_found": 2,
+  "checks": [
+    {
+      "check_name": "database_connectivity",
+      "status": "healthy",
+      "score": 1.0,
+      "message": "Database is accessible and responsive",
+      "details": {
+        "response_time_ms": "< 1000"
+      }
+    },
+    {
+      "check_name": "data_integrity",
+      "status": "healthy",
+      "score": 1.0,
+      "message": "All tables have expected data",
+      "details": {
+        "tables_checked": 4
+      }
+    },
+    {
+      "check_name": "embedding_coverage",
+      "status": "warning",
+      "score": 0.0,
+      "message": "Embeddings not yet generated (expected until Transformation 3.0)",
+      "details": {
+        "total_verses": 100729,
+        "embedded_verses": 0,
+        "coverage_percent": 0.0
+      }
+    },
+    {
+      "check_name": "api_health",
+      "status": "healthy",
+      "score": 1.0,
+      "message": "API is running (version 2.0.0)",
+      "details": {
+        "version": "2.0.0",
+        "status": "operational"
+      }
+    },
+    {
+      "check_name": "repository_status",
+      "status": "warning",
+      "score": 0.7,
+      "message": "Repository has 1 uncommitted changes",
+      "details": {
+        "uncommitted_files": 1
+      }
+    }
+  ]
+}
